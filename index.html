@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="app" :style="{'--main': color}">
+  <div class="container"  :style="{'background-color': color}" ></div>
+  <div class="list">
+      <div data-color="#0000ff" @click="changeColor"></div>
+      <div data-color="#ac0c19" @click="changeColor"></div>
+      <div data-color="#00c52b" @click="changeColor"></div>
+      <div data-color="#dd8500" @click="changeColor"></div>
+  </div>
+</div>
+
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<!-- Main Js File  -->
+    <script src="main.js"></script>
+</body>
+</html>

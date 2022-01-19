@@ -1,0 +1,30 @@
+.container{
+    height: 100px;
+    /* --main-bg-color: brown; */
+    
+    
+}
+:root{
+   
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.list div {
+    background-color: var(--main);
+    width: 100px;
+    height: 100px;
+}
+.list div:nth-child(1){
+    background-color: #0000ff;
+}
+.list div:nth-child(2){
+    background-color: #ac0c19;
+}
+.list div:nth-child(3){
+    background-color: #00c52b;
+}
+.list div:nth-child(4){
+    background-color: #dd8500;
+}
